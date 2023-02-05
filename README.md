@@ -1,17 +1,20 @@
-# memo_news_app
+#MeMo News
+A news application built with Flutter that features a scrolling list of news items displayed either in a vertical list or horizontal column format. The news items are generated with random titles and images, and the display mode can be changed with a floating action button.
 
-A new Flutter project.
+#Getting Started
+Clone the repository and run the following command to install dependencies:
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+flutter pub get
+Run the application with the following command:
 
-A few resources to get you started if this is your first Flutter project:
+flutter run
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# memo_news_app
+#Dependencies
+english_words: Package for generating random English words.
+flutter: Google's UI toolkit for building beautiful, natively compiled applications for mobile, web, and desktop.
+#Features
+Scrolling list of news items.
+Option to switch between vertical list and horizontal column display modes.
+Randomly generated news titles and images.
+Clean and modern user interface.
